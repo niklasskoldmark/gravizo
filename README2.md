@@ -28,7 +28,7 @@ custom_mark10
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
   }
-custom_mark10
+custom_mark101
 </details>
 
 ```
@@ -51,6 +51,6 @@ custom_mark10
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
   }
-custom_mark10
+custom_mark102
 </details>
 ```
