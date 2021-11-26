@@ -15,15 +15,15 @@ Use this syntax: ```![Alt text](https://g.gravizo.com/source/<custom_mark>?<url_
 custom_mark10
   digraph G {
     size ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
+    top1 [shape=box];
+    top1 -> parse [weight=8];
     parse -> execute [style=dotted];
-    main -> init [style=dotted];
-    main -> cleanup;
+    top1 -> init [style=dotted];
+    top1 -> cleanup;
     execute -> { make_string; printf};
     init -> make_string;
     edge [color=red];
-    main -> printf [style=bold,label="100 times"];
+    top1 -> printf [style=bold,label="100 times"];
     make_string [label="make a string"];
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
@@ -38,15 +38,15 @@ custom_mark10
 custom_mark10
   digraph G {
     size ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
+    top2 [shape=box];
+    top2 -> parse [weight=8];
     parse -> execute [style=dotted];
-    main -> init [style=dotted];
-    main -> cleanup;
+    top2 -> init [style=dotted];
+    top2 -> cleanup;
     execute -> { make_string; printf};
     init -> make_string;
     edge [color=red];
-    main -> printf [style=bold,label="100 times"];
+    top2 -> printf [style=bold,label="100 times"];
     make_string [label="make a string"];
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
