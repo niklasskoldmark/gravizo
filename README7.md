@@ -1,10 +1,9 @@
-README71.md
+README72.md
 =======
 
 ![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2Fniklasskoldmark%2Fgravizo%2Fmaster%2FREADME7.md)
 
  <details> 
- <summary>README71</summary>
  </details>
 
 
@@ -14,7 +13,7 @@ README71.md
 <summary></summary>
 custom_mark10
   digraph G {
-    README71 -> parse;
+    README72 -> parse;
   }
 custom_mark10
 </details>
