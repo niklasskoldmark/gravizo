@@ -13,7 +13,7 @@ Use this syntax: ```![Alt text](https://g.gravizo.com/source/<custom_mark>?<url_
 ![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2Fniklasskoldmark%2Fgravizo%2Fmaster%2FREADME2.md)
 <details> 
 <summary></summary>
-custom_mark10
+custom_mark102
   digraph G {
     size ="4,4";
     top2 [shape=box];
