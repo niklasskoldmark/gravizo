@@ -40,15 +40,15 @@ Use this syntax: ```![Alt text](https://g.gravizo.com/source/<custom_mark>?<url_
 custom_mark10
   digraph G {
     size ="4,4";
-    top4 [shape=box];
-    top4 -> parse [weight=8];
+    top5 [shape=box];
+    top5 -> parse [weight=8];
     parse -> execute [style=dotted];
-    top4 -> init [style=dotted];
-    top4 -> cleanup;
+    top5 -> init [style=dotted];
+    top5 -> cleanup;
     execute -> { make_string; printf};
     init -> make_string;
     edge [color=red];
-    top4 -> printf [style=bold,label="400 times"];
+    top5 -> printf [style=bold,label="500 times"];
     make_string [label="make a string"];
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
