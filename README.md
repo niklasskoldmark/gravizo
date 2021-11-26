@@ -32,7 +32,7 @@ custom_mark10
 </details>
 
 ```
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
+![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2Fniklasskoldmark%2Fgravizo%2Fmaster%2FREADME.md)
 <details> 
 <summary></summary>
 custom_mark10
@@ -40,7 +40,7 @@ custom_mark10
     size ="4,4";
     main [shape=box];
     main -> parse [weight=8];
-    parse -> execute;
+    parse -> execute [style=dotted];
     main -> init [style=dotted];
     main -> cleanup;
     execute -> { make_string; printf};
