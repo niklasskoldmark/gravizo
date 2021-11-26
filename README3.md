@@ -16,16 +16,9 @@ Use this syntax: ```![Alt text](https://g.gravizo.com/source/<custom_mark>?<url_
    digraph G {
      size ="4,4";
      top1 [shape=box];
-     top1 -> parse [weight=8];
-     parse -> execute [style=dotted];
-     top1 -> init [style=dotted];
-     top1 -> cleanup;
-     edge [color=red];
-     top1 -> printf [style=bold,label="100 times"];
    }
  custom_mark10
  </details>
-
 
 
 ```
@@ -35,18 +28,18 @@ Use this syntax: ```![Alt text](https://g.gravizo.com/source/<custom_mark>?<url_
 custom_mark10
   digraph G {
     size ="4,4";
-    top6 [shape=box];
-    top6 -> parse [weight=8];
+    top7 [shape=box];
+    top7 -> parse [weight=8];
     parse -> execute [style=dotted];
-    top6 -> init [style=dotted];
-    top6 -> cleanup;
+    top7 -> init [style=dotted];
+    top7 -> cleanup;
     execute -> { make_string; printf};
     init -> make_string;
     edge [color=red];
-    top6 -> printf [style=bold,label="600 times"];
+    top7 -> printf [style=bold,label="700 times"];
     make_string [label="make a string"];
     node [shape=box,style=filled,color=".7 .3 1.0"];
-    execute -> compare6;
+    execute -> compare7;
   }
 custom_mark10
 </details>
