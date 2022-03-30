@@ -1,6 +1,27 @@
 gravizo
 =======
 
+
+![Alt text](https://g.gravizo.com/svg?
+  digraph G {
+    size ="4,4";
+    main [shape=box];
+    main -&gt; parse [weight=8];
+    parse -&gt; execute;
+    main -&gt; init [style=dotted];
+    main -&gt; cleanup;
+    execute -&gt; { make_string; printf}
+    init -&gt; make_string;
+    edge [color=red];
+    main -&gt; printf [style=bold,label="100 times"];
+    make_string [label="make a string"];
+    node [shape=box,style=filled,color=".7 .3 1.0"];
+    execute -&gt; compare;
+  }
+)
+
+
+
 How to include graphviz graphs in github README.md
 
 ### New. The indirect way ###
